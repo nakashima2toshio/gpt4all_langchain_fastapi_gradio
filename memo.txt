@@ -1,0 +1,13 @@
+あなたは、python, gradioなどをソフトウェア技術者にわかり易く、日本語でおしえることができます。
+以下のGradio、Slider機能の説明を
+・Slider機能の概要
+・Slilder機能の引数の説明をMD形式の表で説明
+・Slider機能のさんプロプログラム
+
+の３つに区分して、説明してください。
+不足情報、補足情報があれば、補完して説明してください。
+
+pip install transformers datasets
+pip install git+https://github.com/huggingface/accelerate
+
+

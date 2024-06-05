@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="postgres@localhost" uuid="ba7e1e09-fb26-47e0-98ec-4f5b4b869fa2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="AWS Glue" read-only="true" uuid="676a19ff-2b81-4f2c-be17-c52b62a6350e">
+      <synchronize>true</synchronize>
+      <remarks>Big Data Tools の AWS Glue ラッパー</remarks>
+      <jdbc-driver>com.dbschema.ZeppelinSparkJdbcDriver</jdbc-driver>
+      <jdbc-url>AWS Glue@glueConnections@-4283712369724964792</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="forceUseDriverIcon" value="true" />
+        <property name="connectionId" value="AWS Glue@glueConnections@-4283712369724964792" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
